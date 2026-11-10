@@ -1,0 +1,373 @@
+:root {
+  color-scheme: dark;
+  --bg: #0f1116;
+  --surface: #171a21;
+  --surface-2: #1f232c;
+  --border: #2a2f3a;
+  --text: #e7e9ee;
+  --muted: #98a1b3;
+  --link: #8fb4ff;
+  --grid: rgba(255, 255, 255, 0.055);
+  --today: rgba(91, 141, 239, 0.13);
+  --now: #ff6b6b;
+
+  /* Bar colours stay the same in both themes; text on them is white. */
+  --event: #3f6fd1;
+  --banner: #8f55c4;
+  --custom: #23805f;
+
+  font-family:
+    system-ui,
+    -apple-system,
+    'Segoe UI',
+    Roboto,
+    sans-serif;
+  font-size: 15px;
+  line-height: 1.45;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color-scheme: light;
+    --bg: #f4f5f8;
+    --surface: #ffffff;
+    --surface-2: #eef0f4;
+    --border: #dde1e8;
+    --text: #1b1f27;
+    --muted: #5d6676;
+    --link: #2f5fc4;
+    --grid: rgba(0, 0, 0, 0.07);
+    --today: rgba(63, 111, 209, 0.12);
+    --now: #e03131;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+}
+
+a {
+  color: var(--link);
+}
+
+h1,
+h2,
+p,
+ul {
+  margin: 0;
+}
+
+.app {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 24px 16px 40px;
+}
+
+main {
+  display: grid;
+  gap: 16px;
+}
+
+/* Header */
+
+.app-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 12px 24px;
+  margin-bottom: 20px;
+}
+
+.app-header h1 {
+  font-size: 1.6rem;
+  letter-spacing: -0.01em;
+}
+
+.app-sub {
+  color: var(--muted);
+}
+
+.toggle {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.toggle input {
+  margin-top: 4px;
+  accent-color: var(--event);
+}
+
+.toggle-zone {
+  display: block;
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
+/* Panels */
+
+.panel {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.panel-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 12px 16px;
+  border-bottom: 1px solid var(--border);
+}
+
+.panel-head h2 {
+  font-size: 1rem;
+}
+
+.button {
+  font: inherit;
+  font-size: 0.85rem;
+  color: var(--text);
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 4px 10px;
+  cursor: pointer;
+}
+
+.button:hover {
+  border-color: var(--muted);
+}
+
+/* Resets */
+
+.resets {
+  list-style: none;
+  padding: 16px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 12px;
+}
+
+.reset-card {
+  display: grid;
+  gap: 2px;
+  padding: 12px 14px;
+  background: var(--surface-2);
+  border-radius: 10px;
+}
+
+.reset-title,
+.reset-when {
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
+.reset-countdown {
+  font-size: 1.35rem;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+}
+
+/* Timeline */
+
+.timeline {
+  overflow-x: auto;
+}
+
+.tl-inner {
+  position: relative;
+}
+
+.tl-months,
+.tl-days {
+  display: flex;
+  border-bottom: 1px solid var(--border);
+}
+
+.tl-month {
+  flex: none;
+  padding: 6px 0;
+  font-size: 0.85rem;
+  font-weight: 600;
+  border-left: 1px solid var(--border);
+}
+
+.tl-month:first-child {
+  border-left: none;
+}
+
+/* Month and group labels stay in view while the grid scrolls sideways. */
+.tl-month span,
+.tl-group-label span {
+  position: sticky;
+  left: 12px;
+  display: inline-block;
+}
+
+.tl-day {
+  flex: none;
+  width: var(--day-width);
+  padding: 4px 0;
+  display: grid;
+  justify-items: center;
+  font-variant-numeric: tabular-nums;
+}
+
+.tl-weekday {
+  font-size: 0.65rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--muted);
+}
+
+.tl-daynum {
+  font-size: 0.85rem;
+}
+
+.tl-day.is-weekend .tl-daynum {
+  color: var(--muted);
+}
+
+.tl-day.is-today {
+  background: var(--today);
+}
+
+.tl-day.is-today .tl-daynum {
+  font-weight: 700;
+  color: var(--text);
+}
+
+.tl-body {
+  position: relative;
+  min-height: 140px;
+  padding-bottom: 12px;
+  background-image: linear-gradient(to right, var(--grid) 1px, transparent 1px);
+  background-size: var(--day-width) 100%;
+}
+
+.tl-today {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  background: var(--today);
+  pointer-events: none;
+}
+
+.tl-group {
+  position: relative;
+}
+
+.tl-group-label {
+  padding: 10px 0 2px;
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--muted);
+}
+
+.tl-lanes {
+  position: relative;
+}
+
+.tl-bar {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  color: #fff;
+  text-decoration: none;
+  /* `clip`, not `hidden`: hidden would stop the label from sticking. */
+  overflow: clip;
+}
+
+.tl-bar--event {
+  background: var(--event);
+}
+
+.tl-bar--banner {
+  background: var(--banner);
+}
+
+.tl-bar--custom {
+  background: var(--custom);
+}
+
+.tl-bar.is-ended {
+  opacity: 0.45;
+}
+
+.tl-bar[href]:hover {
+  filter: brightness(1.12);
+}
+
+.tl-bar-content {
+  position: sticky;
+  left: 10px;
+  display: inline-flex;
+  align-items: baseline;
+  gap: 10px;
+  padding: 0 10px;
+  white-space: nowrap;
+}
+
+.tl-bar-title {
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.tl-bar-badge {
+  font-size: 0.75rem;
+  font-variant-numeric: tabular-nums;
+  opacity: 0.9;
+}
+
+.tl-now {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  margin-left: -1px;
+  background: var(--now);
+  pointer-events: none;
+}
+
+.tl-now::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -3px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--now);
+}
+
+.tl-empty {
+  position: sticky;
+  left: 0;
+  width: max-content;
+  padding: 24px 16px;
+  color: var(--muted);
+}
+
+/* Footer */
+
+.app-footer {
+  margin-top: 20px;
+  color: var(--muted);
+  font-size: 0.8rem;
+  display: grid;
+  gap: 4px;
+}

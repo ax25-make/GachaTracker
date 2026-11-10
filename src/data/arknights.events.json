@@ -1,0 +1,82 @@
+{
+  "game": "arknights",
+  "updated": "2026-11-10",
+  "attribution": {
+    "name": "Arknights Terra Wiki",
+    "url": "https://arknights.wiki.gg/",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "events": [
+    {
+      "id": "arknights-event-critical-phase-transition",
+      "game": "arknights",
+      "title": "Critical Phase Transition",
+      "category": "event",
+      "start": "2026-10-14T08:00:00-07:00",
+      "end": "2026-10-28T03:59:59-07:00",
+      "url": "https://arknights.wiki.gg/wiki/Event/2026",
+      "source": "auto"
+    },
+    {
+      "id": "arknights-event-duel-channel-ivy-vine",
+      "game": "arknights",
+      "title": "Duel Channel: Ivy Vine",
+      "category": "event",
+      "start": "2026-09-23T08:00:00-07:00",
+      "end": "2026-10-07T03:59:59-07:00",
+      "url": "https://arknights.wiki.gg/wiki/Event/2026",
+      "source": "auto"
+    },
+    {
+      "id": "arknights-event-stronghold-protocol-alliance-part-2",
+      "game": "arknights",
+      "title": "Stronghold Protocol: Alliance - Part 2",
+      "category": "event",
+      "start": "2026-08-20T08:00:00-07:00",
+      "end": "2026-10-01T03:59:59-07:00",
+      "url": "https://arknights.wiki.gg/wiki/Event/2026",
+      "source": "auto"
+    },
+    {
+      "id": "arknights-event-people-a-people",
+      "game": "arknights",
+      "title": "People, A People",
+      "category": "event",
+      "start": "2026-09-16T08:00:00-07:00",
+      "end": "2026-09-30T03:59:59-07:00",
+      "url": "https://arknights.wiki.gg/wiki/Event/2026",
+      "source": "auto"
+    },
+    {
+      "id": "arknights-banner-standard-2026-10-28",
+      "game": "arknights",
+      "title": "Standard Headhunting",
+      "category": "banner",
+      "start": "2026-10-28T08:00:00-07:00",
+      "end": "2026-11-11T03:59:59-07:00",
+      "url": "https://arknights.wiki.gg/wiki/Headhunting/Banners/2026",
+      "source": "auto"
+    },
+    {
+      "id": "arknights-banner-sealed-with-time",
+      "game": "arknights",
+      "title": "Sealed With Time",
+      "category": "banner",
+      "start": "2026-10-14T08:00:00-07:00",
+      "end": "2026-10-28T03:59:59-07:00",
+      "url": "https://arknights.wiki.gg/wiki/Headhunting/Banners/2026",
+      "source": "auto"
+    },
+    {
+      "id": "arknights-banner-rage-of-the-many",
+      "game": "arknights",
+      "title": "Rage of the Many",
+      "category": "banner",
+      "start": "2026-09-16T08:00:00-07:00",
+      "end": "2026-09-30T03:59:59-07:00",
+      "url": "https://arknights.wiki.gg/wiki/Headhunting/Banners/2026",
+      "source": "auto"
+    }
+  ]
+}
