@@ -1,0 +1,89 @@
+{
+  "announcements": [
+    {
+      "id": "1656",
+      "title": "The Masses' Travels Rerun",
+      "url": "https://ark-us-static-online.yo-star.com/announce/Android/announcement/1656.html",
+      "main": {
+        "start": "2026-11-05T08:00:00-07:00",
+        "end": "2026-11-19T03:59:59-07:00"
+      },
+      "ranges": [
+        {
+          "start": "2026-11-05T08:00:00-07:00",
+          "end": "2026-11-19T03:59:59-07:00"
+        },
+        {
+          "start": "2026-11-05T08:00:00-07:00",
+          "end": "2026-11-15T03:59:59-07:00"
+        }
+      ]
+    },
+    {
+      "id": "1654",
+      "title": "Relaunch Anchor",
+      "url": "https://ark-us-static-online.yo-star.com/announce/Android/announcement/1654.html",
+      "main": null,
+      "ranges": [
+        {
+          "start": "2026-10-28T08:00:00-07:00",
+          "end": "2026-11-11T03:59:59-07:00"
+        },
+        {
+          "start": "2026-10-28T08:00:00-07:00",
+          "end": "2026-11-25T03:59:59-07:00"
+        },
+        {
+          "start": "2026-10-31T04:00:00-07:00",
+          "end": "2027-04-30T03:59:59-07:00"
+        }
+      ]
+    },
+    {
+      "id": "1629",
+      "title": "Critical Phase Transition",
+      "url": "https://ark-us-static-online.yo-star.com/announce/Android/announcement/1629.html",
+      "main": {
+        "start": "2026-10-14T08:00:00-07:00",
+        "end": "2026-10-28T03:59:59-07:00"
+      },
+      "ranges": [
+        {
+          "start": "2026-10-14T08:00:00-07:00",
+          "end": "2026-10-28T03:59:59-07:00"
+        },
+        {
+          "start": "2026-10-14T08:00:00-07:00",
+          "end": "2026-11-04T03:59:59-07:00"
+        },
+        {
+          "start": "2026-10-14T08:00:00-07:00",
+          "end": "2026-11-11T03:59:59-07:00"
+        },
+        {
+          "start": "2026-10-20T04:00:00-07:00",
+          "end": "2026-11-03T03:59:59-07:00"
+        },
+        {
+          "start": "2026-10-14T08:00:00-07:00",
+          "end": "2026-11-07T03:59:59-07:00"
+        }
+      ]
+    },
+    {
+      "id": "1627",
+      "title": "Recommended Monthly Card",
+      "url": "https://ark-us-static-online.yo-star.com/announce/Android/announcement/1627.html",
+      "main": {
+        "start": "2026-10-08T04:00:00-07:00",
+        "end": "2026-11-16T03:59:59-07:00"
+      },
+      "ranges": [
+        {
+          "start": "2026-10-08T04:00:00-07:00",
+          "end": "2026-11-16T03:59:59-07:00"
+        }
+      ]
+    }
+  ]
+}

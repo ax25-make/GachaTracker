@@ -35,13 +35,24 @@ export default function App() {
       <footer className="app-footer">
         <p>
           Event and banner dates from{' '}
-          <a href={data.attribution.url} target="_blank" rel="noreferrer">
-            {data.attribution.name}
-          </a>
-          , licensed under{' '}
-          <a href={data.attribution.licenseUrl} target="_blank" rel="noreferrer">
-            {data.attribution.license}
-          </a>
+          {data.sources.map((source, i) => (
+            <span key={source.url}>
+              {i > 0 && (i === data.sources.length - 1 ? ' and ' : ', ')}
+              <a href={source.url} target="_blank" rel="noreferrer">
+                {source.name}
+              </a>
+              {source.license && (
+                <>
+                  {' '}
+                  (
+                  <a href={source.licenseUrl} target="_blank" rel="noreferrer">
+                    {source.license}
+                  </a>
+                  )
+                </>
+              )}
+            </span>
+          ))}
           . Last updated {data.updated}.
         </p>
         <p>A fan-made tool, not affiliated with or endorsed by the game's developer or publisher.</p>

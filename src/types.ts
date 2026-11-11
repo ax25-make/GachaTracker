@@ -46,16 +46,19 @@ export interface GameConfig {
   resets: ResetRule[]
 }
 
+export interface DataSource {
+  name: string
+  url: string
+  license?: string
+  licenseUrl?: string
+}
+
 /** Shape of the per-game files in `src/data`. */
 export interface EventDataFile {
   game: string
-  /** Date the data was last pulled from its source, as YYYY-MM-DD. */
+  /** Date the events last changed, as YYYY-MM-DD. */
   updated: string
-  attribution: {
-    name: string
-    url: string
-    license: string
-    licenseUrl: string
-  }
+  /** Where the dates come from, credited in the page footer. */
+  sources: DataSource[]
   events: TrackerEvent[]
 }

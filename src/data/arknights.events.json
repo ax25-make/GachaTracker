@@ -1,31 +1,737 @@
 {
   "game": "arknights",
-  "updated": "2026-11-10",
-  "attribution": {
-    "name": "Arknights Terra Wiki",
-    "url": "https://arknights.wiki.gg/",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
-  },
+  "updated": "2026-11-11",
+  "sources": [
+    {
+      "name": "official in-game announcements",
+      "url": "https://www.arknights.global/"
+    },
+    {
+      "name": "Arknights Terra Wiki",
+      "url": "https://arknights.wiki.gg/",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+    }
+  ],
   "events": [
     {
-      "id": "arknights-event-critical-phase-transition",
+      "id": "arknights-banner-standard-pool-157",
       "game": "arknights",
-      "title": "Critical Phase Transition",
-      "category": "event",
-      "start": "2026-10-14T08:00:00-07:00",
-      "end": "2026-10-28T03:59:59-07:00",
-      "url": "https://arknights.wiki.gg/wiki/Event/2026",
+      "title": "Standard Pool #157",
+      "category": "banner",
+      "start": "2026-01-02T04:00:00-07:00",
+      "end": "2026-01-16T03:59:59-07:00",
+      "url": "https://arknights.wiki.gg/wiki/Headhunting/Banners/2026",
       "source": "auto"
     },
     {
-      "id": "arknights-event-duel-channel-ivy-vine",
+      "id": "arknights-event-adventure-that-cannot-wait-for-the-sun-rerun",
       "game": "arknights",
-      "title": "Duel Channel: Ivy Vine",
+      "title": "Adventure That Cannot Wait for the Sun Rerun",
       "category": "event",
-      "start": "2026-09-23T08:00:00-07:00",
-      "end": "2026-10-07T03:59:59-07:00",
-      "url": "https://arknights.wiki.gg/wiki/Event/2026",
+      "start": "2026-01-06T08:00:00-07:00",
+      "end": "2026-01-16T03:59:59-07:00",
+      "url": "https://arknights.wiki.gg/wiki/Adventure_That_Cannot_Wait_for_the_Sun_Rerun",
+      "source": "auto"
+    },
+    {
+      "id": "arknights-banner-kernel-headhunting-48",
+      "game": "arknights",
+      "title": "Kernel Headhunting #48",
+      "category": "banner",
+      "start": "2026-01-13T04:00:00-07:00",
+      "end": "2026-01-27T03:59:59-07:00",
+      "url": "https://arknights.wiki.gg/wiki/Headhunting/Banners/2026",
+      "source": "auto"
+    },
+    {
+      "id": "arknights-banner-standard-pool-158",
+      "game": "arknights",
+      "title": "Standard Pool #158",
+      "category": "banner",
+      "start": "2026-01-16T04:00:00-07:00",
+      "end": "2026-01-30T03:59:59-07:00",
+      "url": "https://arknights.wiki.gg/wiki/Headhunting/Banners/2026",
+      "source": "auto"
+    },
+    {
+      "id": "arknights-banner-hanabi-exiled",
+      "game": "arknights",
+      "title": "Hanabi Exiled",
+      "category": "banner",
+      "start": "2026-01-16T08:00:00-07:00",
+      "end": "2026-01-30T03:59:59-07:00",
+      "url": "https://arknights.wiki.gg/wiki/Headhunting/Banners/2026",
+      "source": "auto"
+    },
+    {
+      "id": "arknights-event-ato",
+      "game": "arknights",
+      "title": "Ato",
+      "category": "event",
+      "start": "2026-01-16T08:00:00-07:00",
+      "end": "2026-02-06T03:59:59-07:00",
+      "url": "https://arknights.wiki.gg/wiki/Ato",
+      "source": "auto"
+    },
+    {
+      "id": "arknights-event-contingency-contract-arclight",
+      "game": "arknights",
+      "title": "Contingency Contract Arclight",
+      "category": "event",
+      "start": "2026-01-23T08:00:00-07:00",
+      "end": "2026-02-06T03:59:59-07:00",
+      "url": "https://arknights.wiki.gg/wiki/Contingency_Contract_Arclight",
+      "source": "auto"
+    },
+    {
+      "id": "arknights-banner-joint-operation-19",
+      "game": "arknights",
+      "title": "Joint Operation #19",
+      "category": "banner",
+      "start": "2026-01-23T16:00:00-07:00",
+      "end": "2026-02-06T03:59:59-07:00",
+      "url": "https://arknights.wiki.gg/wiki/Headhunting/Banners/2026",
+      "source": "auto"
+    },
+    {
+      "id": "arknights-banner-kernel-locating-10",
+      "game": "arknights",
+      "title": "Kernel Locating #10",
+      "category": "banner",
+      "start": "2026-01-27T08:00:00-07:00",
+      "end": "2026-02-10T03:59:59-07:00",
+      "url": "https://arknights.wiki.gg/wiki/Headhunting/Banners/2026",
+      "source": "auto"
+    },
+    {
+      "id": "arknights-banner-standard-pool-159",
+      "game": "arknights",
+      "title": "Standard Pool #159",
+      "category": "banner",
+      "start": "2026-01-30T04:00:00-07:00",
+      "end": "2026-02-13T03:59:59-07:00",
+      "url": "https://arknights.wiki.gg/wiki/Headhunting/Banners/2026",
+      "source": "auto"
+    },
+    {
+      "id": "arknights-event-duel-channel-honeydew",
+      "game": "arknights",
+      "title": "Duel Channel: Honeydew",
+      "category": "event",
+      "start": "2026-02-03T08:00:00-07:00",
+      "end": "2026-02-17T03:59:59-07:00",
+      "url": "https://arknights.wiki.gg/wiki/Duel_Channel_Honeydew",
+      "source": "auto"
+    },
+    {
+      "id": "arknights-banner-kernel-headhunting-49",
+      "game": "arknights",
+      "title": "Kernel Headhunting #49",
+      "category": "banner",
+      "start": "2026-02-10T04:00:00-07:00",
+      "end": "2026-02-24T03:59:59-07:00",
+      "url": "https://arknights.wiki.gg/wiki/Headhunting/Banners/2026",
+      "source": "auto"
+    },
+    {
+      "id": "arknights-banner-cantilena-puppae",
+      "game": "arknights",
+      "title": "Cantilena Puppae",
+      "category": "banner",
+      "start": "2026-02-10T08:00:00-07:00",
+      "end": "2026-02-24T03:59:59-07:00",
+      "url": "https://arknights.wiki.gg/wiki/Headhunting/Banners/2026",
+      "source": "auto"
+    },
+    {
+      "id": "arknights-event-somniloquium-serenum",
+      "game": "arknights",
+      "title": "Somniloquium Serenum",
+      "category": "event",
+      "start": "2026-02-10T08:00:00-07:00",
+      "end": "2026-02-24T03:59:59-07:00",
+      "url": "https://arknights.wiki.gg/wiki/Somniloquium_Serenum",
+      "source": "auto"
+    },
+    {
+      "id": "arknights-banner-standard-pool-160",
+      "game": "arknights",
+      "title": "Standard Pool #160",
+      "category": "banner",
+      "start": "2026-02-13T04:00:00-07:00",
+      "end": "2026-02-27T03:59:59-07:00",
+      "url": "https://arknights.wiki.gg/wiki/Headhunting/Banners/2026",
+      "source": "auto"
+    },
+    {
+      "id": "arknights-banner-kernel-headhunting-50",
+      "game": "arknights",
+      "title": "Kernel Headhunting #50",
+      "category": "banner",
+      "start": "2026-02-24T04:00:00-07:00",
+      "end": "2026-03-10T03:59:59-07:00",
+      "url": "https://arknights.wiki.gg/wiki/Headhunting/Banners/2026",
+      "source": "auto"
+    },
+    {
+      "id": "arknights-banner-never-gilded",
+      "game": "arknights",
+      "title": "Never Gilded",
+      "category": "banner",
+      "start": "2026-02-24T04:00:00-07:00",
+      "end": "2026-03-10T03:59:59-07:00",
+      "url": "https://arknights.wiki.gg/wiki/Headhunting/Banners/2026",
+      "source": "auto"
+    },
+    {
+      "id": "arknights-event-ending-a-grand-overture-rerun",
+      "game": "arknights",
+      "title": "Ending a Grand Overture Rerun",
+      "category": "event",
+      "start": "2026-02-24T08:00:00-07:00",
+      "end": "2026-03-06T03:59:59-07:00",
+      "url": "https://arknights.wiki.gg/wiki/Ending_a_Grand_Overture_Rerun",
+      "source": "auto"
+    },
+    {
+      "id": "arknights-banner-standard-pool-161",
+      "game": "arknights",
+      "title": "Standard Pool #161",
+      "category": "banner",
+      "start": "2026-02-27T04:00:00-07:00",
+      "end": "2026-03-13T03:59:59-07:00",
+      "url": "https://arknights.wiki.gg/wiki/Headhunting/Banners/2026",
+      "source": "auto"
+    },
+    {
+      "id": "arknights-banner-orienteering-4",
+      "game": "arknights",
+      "title": "Orienteering #4",
+      "category": "banner",
+      "start": "2026-03-06T08:00:00-07:00",
+      "end": "2026-03-20T03:59:59-07:00",
+      "url": "https://arknights.wiki.gg/wiki/Headhunting/Banners/2026",
+      "source": "auto"
+    },
+    {
+      "id": "arknights-event-rebuilding-mandate",
+      "game": "arknights",
+      "title": "Rebuilding Mandate",
+      "category": "event",
+      "start": "2026-03-06T08:00:00-07:00",
+      "end": "2026-03-27T03:59:59-07:00",
+      "url": "https://arknights.wiki.gg/wiki/Rebuilding_Mandate",
+      "source": "auto"
+    },
+    {
+      "id": "arknights-event-tender-moments",
+      "game": "arknights",
+      "title": "Tender Moments",
+      "category": "event",
+      "start": "2026-03-06T08:00:00-07:00",
+      "end": "2026-03-27T03:59:59-07:00",
+      "url": "https://arknights.wiki.gg/wiki/Tender_Moments",
+      "source": "auto"
+    },
+    {
+      "id": "arknights-banner-kernel-headhunting-51",
+      "game": "arknights",
+      "title": "Kernel Headhunting #51",
+      "category": "banner",
+      "start": "2026-03-10T04:00:00-07:00",
+      "end": "2026-03-24T03:59:59-07:00",
+      "url": "https://arknights.wiki.gg/wiki/Headhunting/Banners/2026",
+      "source": "auto"
+    },
+    {
+      "id": "arknights-banner-standard-pool-162",
+      "game": "arknights",
+      "title": "Standard Pool #162",
+      "category": "banner",
+      "start": "2026-03-13T04:00:00-07:00",
+      "end": "2026-03-27T03:59:59-07:00",
+      "url": "https://arknights.wiki.gg/wiki/Headhunting/Banners/2026",
+      "source": "auto"
+    },
+    {
+      "id": "arknights-banner-the-silent-wavelengths",
+      "game": "arknights",
+      "title": "The Silent Wavelengths",
+      "category": "banner",
+      "start": "2026-03-19T08:00:00-07:00",
+      "end": "2026-04-02T03:59:59-07:00",
+      "url": "https://arknights.wiki.gg/wiki/Headhunting/Banners/2026",
+      "source": "auto"
+    },
+    {
+      "id": "arknights-event-abnormal-spectrum",
+      "game": "arknights",
+      "title": "Abnormal Spectrum",
+      "category": "event",
+      "start": "2026-03-19T08:00:00-07:00",
+      "end": "2026-04-02T03:59:59-07:00",
+      "url": "https://arknights.wiki.gg/wiki/Abnormal_Spectrum",
+      "source": "auto"
+    },
+    {
+      "id": "arknights-banner-kernel-headhunting-52",
+      "game": "arknights",
+      "title": "Kernel Headhunting #52",
+      "category": "banner",
+      "start": "2026-03-24T04:00:00-07:00",
+      "end": "2026-04-07T03:59:59-07:00",
+      "url": "https://arknights.wiki.gg/wiki/Headhunting/Banners/2026",
+      "source": "auto"
+    },
+    {
+      "id": "arknights-banner-standard-pool-163",
+      "game": "arknights",
+      "title": "Standard Pool #163",
+      "category": "banner",
+      "start": "2026-03-27T04:00:00-07:00",
+      "end": "2026-04-10T03:59:59-07:00",
+      "url": "https://arknights.wiki.gg/wiki/Headhunting/Banners/2026",
+      "source": "auto"
+    },
+    {
+      "id": "arknights-event-icebreaker-games-2",
+      "game": "arknights",
+      "title": "Icebreaker Games #2",
+      "category": "event",
+      "start": "2026-04-01T08:00:00-07:00",
+      "end": "2026-04-22T03:59:59-07:00",
+      "url": "https://arknights.wiki.gg/wiki/Icebreaker_Games_2",
+      "source": "auto"
+    },
+    {
+      "id": "arknights-banner-joint-operation-20",
+      "game": "arknights",
+      "title": "Joint Operation #20",
+      "category": "banner",
+      "start": "2026-04-01T16:00:00-07:00",
+      "end": "2026-04-15T03:59:59-07:00",
+      "url": "https://arknights.wiki.gg/wiki/Headhunting/Banners/2026",
+      "source": "auto"
+    },
+    {
+      "id": "arknights-banner-kernel-headhunting-53",
+      "game": "arknights",
+      "title": "Kernel Headhunting #53",
+      "category": "banner",
+      "start": "2026-04-07T04:00:00-07:00",
+      "end": "2026-04-21T03:59:59-07:00",
+      "url": "https://arknights.wiki.gg/wiki/Headhunting/Banners/2026",
+      "source": "auto"
+    },
+    {
+      "id": "arknights-banner-standard-pool-164",
+      "game": "arknights",
+      "title": "Standard Pool #164",
+      "category": "banner",
+      "start": "2026-04-10T04:00:00-07:00",
+      "end": "2026-04-24T03:59:59-07:00",
+      "url": "https://arknights.wiki.gg/wiki/Headhunting/Banners/2026",
+      "source": "auto"
+    },
+    {
+      "id": "arknights-banner-a-shared-oath-of-guardianship",
+      "game": "arknights",
+      "title": "A Shared Oath of Guardianship",
+      "category": "banner",
+      "start": "2026-04-14T08:00:00-07:00",
+      "end": "2026-04-28T03:59:59-07:00",
+      "url": "https://arknights.wiki.gg/wiki/Headhunting/Banners/2026",
+      "source": "auto"
+    },
+    {
+      "id": "arknights-event-retracing-our-steps",
+      "game": "arknights",
+      "title": "Retracing Our Steps",
+      "category": "event",
+      "start": "2026-04-14T08:00:00-07:00",
+      "end": "2026-05-05T03:59:59-07:00",
+      "url": "https://arknights.wiki.gg/wiki/Retracing_Our_Steps",
+      "source": "auto"
+    },
+    {
+      "id": "arknights-banner-kernel-locating-11",
+      "game": "arknights",
+      "title": "Kernel Locating #11",
+      "category": "banner",
+      "start": "2026-04-21T08:00:00-07:00",
+      "end": "2026-05-05T03:59:59-07:00",
+      "url": "https://arknights.wiki.gg/wiki/Headhunting/Banners/2026",
+      "source": "auto"
+    },
+    {
+      "id": "arknights-banner-standard-pool-165",
+      "game": "arknights",
+      "title": "Standard Pool #165",
+      "category": "banner",
+      "start": "2026-04-24T04:00:00-07:00",
+      "end": "2026-05-08T03:59:59-07:00",
+      "url": "https://arknights.wiki.gg/wiki/Headhunting/Banners/2026",
+      "source": "auto"
+    },
+    {
+      "id": "arknights-event-stronghold-protocol-alliance",
+      "game": "arknights",
+      "title": "Stronghold Protocol Alliance",
+      "category": "event",
+      "start": "2026-04-28T08:00:00-07:00",
+      "end": "2026-05-26T03:59:59-07:00",
+      "url": "https://arknights.wiki.gg/wiki/Stronghold_Protocol_Alliance",
+      "source": "auto"
+    },
+    {
+      "id": "arknights-banner-orienteering-5",
+      "game": "arknights",
+      "title": "Orienteering #5",
+      "category": "banner",
+      "start": "2026-04-28T09:00:00-07:00",
+      "end": "2026-05-12T03:59:59-07:00",
+      "url": "https://arknights.wiki.gg/wiki/Headhunting/Banners/2026",
+      "source": "auto"
+    },
+    {
+      "id": "arknights-banner-kernel-headhunting-54",
+      "game": "arknights",
+      "title": "Kernel Headhunting #54",
+      "category": "banner",
+      "start": "2026-05-05T04:00:00-07:00",
+      "end": "2026-05-19T03:59:59-07:00",
+      "url": "https://arknights.wiki.gg/wiki/Headhunting/Banners/2026",
+      "source": "auto"
+    },
+    {
+      "id": "arknights-event-i-portatori-dei-velluti-rerun",
+      "game": "arknights",
+      "title": "I Portatori dei Velluti Rerun",
+      "category": "event",
+      "start": "2026-05-07T08:00:00-07:00",
+      "end": "2026-05-17T03:59:59-07:00",
+      "url": "https://arknights.wiki.gg/wiki/I_Portatori_dei_Velluti_Rerun",
+      "source": "auto"
+    },
+    {
+      "id": "arknights-banner-standard-pool-166",
+      "game": "arknights",
+      "title": "Standard Pool #166",
+      "category": "banner",
+      "start": "2026-05-08T04:00:00-07:00",
+      "end": "2026-05-22T03:59:59-07:00",
+      "url": "https://arknights.wiki.gg/wiki/Headhunting/Banners/2026",
+      "source": "auto"
+    },
+    {
+      "id": "arknights-banner-kernel-headhunting-55",
+      "game": "arknights",
+      "title": "Kernel Headhunting #55",
+      "category": "banner",
+      "start": "2026-05-19T04:00:00-07:00",
+      "end": "2026-06-02T03:59:59-07:00",
+      "url": "https://arknights.wiki.gg/wiki/Headhunting/Banners/2026",
+      "source": "auto"
+    },
+    {
+      "id": "arknights-banner-600-meters-over-the-facts",
+      "game": "arknights",
+      "title": "600 Meters Over The Facts",
+      "category": "banner",
+      "start": "2026-05-21T08:00:00-07:00",
+      "end": "2026-06-04T03:59:00-07:00",
+      "url": "https://arknights.wiki.gg/wiki/Headhunting/Banners/2026",
+      "source": "auto"
+    },
+    {
+      "id": "arknights-event-unrealized-realities",
+      "game": "arknights",
+      "title": "Unrealized Realities",
+      "category": "event",
+      "start": "2026-05-21T08:00:00-07:00",
+      "end": "2026-06-04T03:59:59-07:00",
+      "url": "https://arknights.wiki.gg/wiki/Unrealized_Realities",
+      "source": "auto"
+    },
+    {
+      "id": "arknights-banner-standard-pool-167",
+      "game": "arknights",
+      "title": "Standard Pool #167",
+      "category": "banner",
+      "start": "2026-05-22T04:00:00-07:00",
+      "end": "2026-06-05T03:59:59-07:00",
+      "url": "https://arknights.wiki.gg/wiki/Headhunting/Banners/2026",
+      "source": "auto"
+    },
+    {
+      "id": "arknights-banner-kernel-headhunting-56",
+      "game": "arknights",
+      "title": "Kernel Headhunting #56",
+      "category": "banner",
+      "start": "2026-06-02T04:00:00-07:00",
+      "end": "2026-06-16T03:59:59-07:00",
+      "url": "https://arknights.wiki.gg/wiki/Headhunting/Banners/2026",
+      "source": "auto"
+    },
+    {
+      "id": "arknights-banner-standard-pool-168",
+      "game": "arknights",
+      "title": "Standard Pool #168",
+      "category": "banner",
+      "start": "2026-06-05T04:00:00-07:00",
+      "end": "2026-06-19T03:59:59-07:00",
+      "url": "https://arknights.wiki.gg/wiki/Headhunting/Banners/2026",
+      "source": "auto"
+    },
+    {
+      "id": "arknights-banner-confirmation-completion-conduction",
+      "game": "arknights",
+      "title": "Confirmation, Completion, Conduction",
+      "category": "banner",
+      "start": "2026-06-05T08:00:00-07:00",
+      "end": "2026-06-19T03:59:59-07:00",
+      "url": "https://arknights.wiki.gg/wiki/Headhunting/Banners/2026",
+      "source": "auto"
+    },
+    {
+      "id": "arknights-event-exodus-from-the-pale-sea-rerun",
+      "game": "arknights",
+      "title": "Exodus from the Pale Sea Rerun",
+      "category": "event",
+      "start": "2026-06-05T08:00:00-07:00",
+      "end": "2026-06-15T03:59:59-07:00",
+      "url": "https://arknights.wiki.gg/wiki/Exodus_from_the_Pale_Sea_Rerun",
+      "source": "auto"
+    },
+    {
+      "id": "arknights-event-trials-for-navigator-6",
+      "game": "arknights",
+      "title": "Trials for Navigator #06",
+      "category": "event",
+      "start": "2026-06-11T08:00:00-07:00",
+      "end": "2026-06-25T03:59:59-07:00",
+      "url": "https://arknights.wiki.gg/wiki/Trials_for_Navigator_6",
+      "source": "auto"
+    },
+    {
+      "id": "arknights-banner-kernel-headhunting-57",
+      "game": "arknights",
+      "title": "Kernel Headhunting #57",
+      "category": "banner",
+      "start": "2026-06-16T04:00:00-07:00",
+      "end": "2026-06-30T03:59:59-07:00",
+      "url": "https://arknights.wiki.gg/wiki/Headhunting/Banners/2026",
+      "source": "auto"
+    },
+    {
+      "id": "arknights-banner-standard-pool-169",
+      "game": "arknights",
+      "title": "Standard Pool #169",
+      "category": "banner",
+      "start": "2026-06-19T04:00:00-07:00",
+      "end": "2026-07-03T03:59:59-07:00",
+      "url": "https://arknights.wiki.gg/wiki/Headhunting/Banners/2026",
+      "source": "auto"
+    },
+    {
+      "id": "arknights-banner-quester-in-frozen-moments",
+      "game": "arknights",
+      "title": "Quester in Frozen Moments",
+      "category": "banner",
+      "start": "2026-06-22T08:00:00-07:00",
+      "end": "2026-07-06T03:59:59-07:00",
+      "url": "https://arknights.wiki.gg/wiki/Headhunting/Banners/2026",
+      "source": "auto"
+    },
+    {
+      "id": "arknights-event-medjehtiqedti-bound",
+      "game": "arknights",
+      "title": "Medjehtiqedti Bound",
+      "category": "event",
+      "start": "2026-06-22T08:00:00-07:00",
+      "end": "2026-07-06T03:59:59-07:00",
+      "url": "https://arknights.wiki.gg/wiki/Medjehtiqedti_Bound",
+      "source": "auto"
+    },
+    {
+      "id": "arknights-banner-celebration-kernel",
+      "game": "arknights",
+      "title": "Celebration - Kernel",
+      "category": "banner",
+      "start": "2026-06-30T04:00:00-07:00",
+      "end": "2026-07-14T03:59:59-07:00",
+      "url": "https://arknights.wiki.gg/wiki/Headhunting/Banners/2026",
+      "source": "auto"
+    },
+    {
+      "id": "arknights-banner-celebration-hope",
+      "game": "arknights",
+      "title": "Celebration & Hope",
+      "category": "banner",
+      "start": "2026-07-03T00:00:00-07:00",
+      "end": "2026-07-17T03:59:59-07:00",
+      "url": "https://arknights.wiki.gg/wiki/Headhunting/Banners/2026",
+      "source": "auto"
+    },
+    {
+      "id": "arknights-banner-standard-pool-170",
+      "game": "arknights",
+      "title": "Standard Pool #170",
+      "category": "banner",
+      "start": "2026-07-03T04:00:00-07:00",
+      "end": "2026-07-17T03:59:59-07:00",
+      "url": "https://arknights.wiki.gg/wiki/Headhunting/Banners/2026",
+      "source": "auto"
+    },
+    {
+      "id": "arknights-event-languid-sentiment",
+      "game": "arknights",
+      "title": "Languid Sentiment",
+      "category": "event",
+      "start": "2026-07-06T08:00:00-07:00",
+      "end": "2026-07-27T03:59:59-07:00",
+      "url": "https://arknights.wiki.gg/wiki/Languid_Sentiment",
+      "source": "auto"
+    },
+    {
+      "id": "arknights-event-such-is-the-joy-of-our-reunion-rerun",
+      "game": "arknights",
+      "title": "Such is the Joy of Our Reunion Rerun",
+      "category": "event",
+      "start": "2026-07-06T08:00:00-07:00",
+      "end": "2026-07-16T03:59:59-07:00",
+      "url": "https://arknights.wiki.gg/wiki/Such_is_the_Joy_of_Our_Reunion/Rerun",
+      "source": "auto"
+    },
+    {
+      "id": "arknights-event-sui-s-garden-of-grotesqueries-mission-event",
+      "game": "arknights",
+      "title": "Sui's Garden of Grotesqueries Mission Event",
+      "category": "event",
+      "start": "2026-07-06T08:00:00-07:00",
+      "end": "2026-07-20T03:59:59-07:00",
+      "url": "https://arknights.wiki.gg/wiki/Sui's_Garden_of_Grotesqueries_Mission_Event",
+      "source": "auto"
+    },
+    {
+      "id": "arknights-banner-kernel-headhunting-58",
+      "game": "arknights",
+      "title": "Kernel Headhunting #58",
+      "category": "banner",
+      "start": "2026-07-14T04:00:00-07:00",
+      "end": "2026-07-28T03:59:59-07:00",
+      "url": "https://arknights.wiki.gg/wiki/Headhunting/Banners/2026",
+      "source": "auto"
+    },
+    {
+      "id": "arknights-banner-ashes-to-ashes-ages-on-ages",
+      "game": "arknights",
+      "title": "Ashes to Ashes, Ages on Ages",
+      "category": "banner",
+      "start": "2026-07-16T08:00:00-07:00",
+      "end": "2026-07-30T03:59:59-07:00",
+      "url": "https://arknights.wiki.gg/wiki/Headhunting/Banners/2026",
+      "source": "auto"
+    },
+    {
+      "id": "arknights-event-first-of-a-thousand-autumns",
+      "game": "arknights",
+      "title": "First of A Thousand Autumns",
+      "category": "event",
+      "start": "2026-07-16T08:00:00-07:00",
+      "end": "2026-08-06T03:59:59-07:00",
+      "url": "https://arknights.wiki.gg/wiki/First_of_A_Thousand_Autumns",
+      "source": "auto"
+    },
+    {
+      "id": "arknights-banner-standard-pool-171",
+      "game": "arknights",
+      "title": "Standard Pool #171",
+      "category": "banner",
+      "start": "2026-07-17T04:00:00-07:00",
+      "end": "2026-07-31T03:59:59-07:00",
+      "url": "https://arknights.wiki.gg/wiki/Headhunting/Banners/2026",
+      "source": "auto"
+    },
+    {
+      "id": "arknights-banner-kernel-locating-12",
+      "game": "arknights",
+      "title": "Kernel Locating #12",
+      "category": "banner",
+      "start": "2026-07-28T08:00:00-07:00",
+      "end": "2026-08-11T03:59:59-07:00",
+      "url": "https://arknights.wiki.gg/wiki/Headhunting/Banners/2026",
+      "source": "auto"
+    },
+    {
+      "id": "arknights-banner-orienteering-6",
+      "game": "arknights",
+      "title": "Orienteering #6",
+      "category": "banner",
+      "start": "2026-07-30T08:00:00-07:00",
+      "end": "2026-08-13T03:59:59-07:00",
+      "url": "https://arknights.wiki.gg/wiki/Headhunting/Banners/2026",
+      "source": "auto"
+    },
+    {
+      "id": "arknights-event-vector-breakthrough-trial-from-misery",
+      "game": "arknights",
+      "title": "Vector Breakthrough #2: Trial from Misery",
+      "category": "event",
+      "start": "2026-07-30T08:00:00-07:00",
+      "end": "2026-08-20T03:59:59-07:00",
+      "url": "https://arknights.wiki.gg/wiki/Vector_Breakthrough_Trial_from_Misery",
+      "source": "auto"
+    },
+    {
+      "id": "arknights-banner-standard-pool-172",
+      "game": "arknights",
+      "title": "Standard Pool #172",
+      "category": "banner",
+      "start": "2026-07-31T04:00:00-07:00",
+      "end": "2026-08-14T03:59:59-07:00",
+      "url": "https://arknights.wiki.gg/wiki/Headhunting/Banners/2026",
+      "source": "auto"
+    },
+    {
+      "id": "arknights-banner-kernel-headhunting-59",
+      "game": "arknights",
+      "title": "Kernel Headhunting #59",
+      "category": "banner",
+      "start": "2026-08-11T04:00:00-07:00",
+      "end": "2026-08-25T03:59:59-07:00",
+      "url": "https://arknights.wiki.gg/wiki/Headhunting/Banners/2026",
+      "source": "auto"
+    },
+    {
+      "id": "arknights-banner-by-my-rules",
+      "game": "arknights",
+      "title": "By My Rules",
+      "category": "banner",
+      "start": "2026-08-13T08:00:00-07:00",
+      "end": "2026-08-27T03:59:59-07:00",
+      "url": "https://arknights.wiki.gg/wiki/Headhunting/Banners/2026",
+      "source": "auto"
+    },
+    {
+      "id": "arknights-event-crossing",
+      "game": "arknights",
+      "title": "Crossing",
+      "category": "event",
+      "start": "2026-08-13T08:00:00-07:00",
+      "end": "2026-08-20T03:59:59-07:00",
+      "url": "https://arknights.wiki.gg/wiki/Crossing",
+      "source": "auto"
+    },
+    {
+      "id": "arknights-banner-standard-pool-173",
+      "game": "arknights",
+      "title": "Standard Pool #173",
+      "category": "banner",
+      "start": "2026-08-14T04:00:00-07:00",
+      "end": "2026-08-28T03:59:59-07:00",
+      "url": "https://arknights.wiki.gg/wiki/Headhunting/Banners/2026",
       "source": "auto"
     },
     {
@@ -35,7 +741,87 @@
       "category": "event",
       "start": "2026-08-20T08:00:00-07:00",
       "end": "2026-10-01T03:59:59-07:00",
-      "url": "https://arknights.wiki.gg/wiki/Event/2026",
+      "url": "https://arknights.wiki.gg/wiki/Stronghold_Protocol_Alliance_Part_2",
+      "source": "auto"
+    },
+    {
+      "id": "arknights-banner-joint-operation-21",
+      "game": "arknights",
+      "title": "Joint Operation #21",
+      "category": "banner",
+      "start": "2026-08-20T09:00:00-07:00",
+      "end": "2026-09-03T03:59:59-07:00",
+      "url": "https://arknights.wiki.gg/wiki/Headhunting/Banners/2026",
+      "source": "auto"
+    },
+    {
+      "id": "arknights-banner-kernel-headhunting-60",
+      "game": "arknights",
+      "title": "Kernel Headhunting #60",
+      "category": "banner",
+      "start": "2026-08-25T04:00:00-07:00",
+      "end": "2026-09-08T03:59:59-07:00",
+      "url": "https://arknights.wiki.gg/wiki/Headhunting/Banners/2026",
+      "source": "auto"
+    },
+    {
+      "id": "arknights-banner-returned-from-a-pyre",
+      "game": "arknights",
+      "title": "Returned From A Pyre",
+      "category": "banner",
+      "start": "2026-08-27T08:00:00-07:00",
+      "end": "2026-09-10T03:59:59-07:00",
+      "url": "https://arknights.wiki.gg/wiki/Headhunting/Banners/2026",
+      "source": "auto"
+    },
+    {
+      "id": "arknights-event-when-elegies-are-ashes-rerun",
+      "game": "arknights",
+      "title": "When Elegies Are Ashes Rerun",
+      "category": "event",
+      "start": "2026-08-27T08:00:00-07:00",
+      "end": "2026-09-06T03:59:59-07:00",
+      "url": "https://arknights.wiki.gg/wiki/When_Elegies_Are_Ashes_Rerun",
+      "source": "auto"
+    },
+    {
+      "id": "arknights-banner-standard-pool-174",
+      "game": "arknights",
+      "title": "Standard Pool #174",
+      "category": "banner",
+      "start": "2026-08-28T04:00:00-07:00",
+      "end": "2026-09-11T03:59:59-07:00",
+      "url": "https://arknights.wiki.gg/wiki/Headhunting/Banners/2026",
+      "source": "auto"
+    },
+    {
+      "id": "arknights-banner-kernel-headhunting-61",
+      "game": "arknights",
+      "title": "Kernel Headhunting #61",
+      "category": "banner",
+      "start": "2026-09-08T04:00:00-07:00",
+      "end": "2026-09-22T03:59:59-07:00",
+      "url": "https://arknights.wiki.gg/wiki/Headhunting/Banners/2026",
+      "source": "auto"
+    },
+    {
+      "id": "arknights-banner-standard-pool-175",
+      "game": "arknights",
+      "title": "Standard Pool #175",
+      "category": "banner",
+      "start": "2026-09-11T04:00:00-07:00",
+      "end": "2026-09-25T03:59:59-07:00",
+      "url": "https://arknights.wiki.gg/wiki/Headhunting/Banners/2026",
+      "source": "auto"
+    },
+    {
+      "id": "arknights-banner-rage-of-the-many",
+      "game": "arknights",
+      "title": "Rage of the Many",
+      "category": "banner",
+      "start": "2026-09-16T08:00:00-07:00",
+      "end": "2026-09-30T03:59:59-07:00",
+      "url": "https://arknights.wiki.gg/wiki/Headhunting/Banners/2026",
       "source": "auto"
     },
     {
@@ -45,16 +831,66 @@
       "category": "event",
       "start": "2026-09-16T08:00:00-07:00",
       "end": "2026-09-30T03:59:59-07:00",
-      "url": "https://arknights.wiki.gg/wiki/Event/2026",
+      "url": "https://arknights.wiki.gg/wiki/People%2C_A_People",
       "source": "auto"
     },
     {
-      "id": "arknights-banner-standard-2026-10-28",
+      "id": "arknights-banner-kernel-headhunting-62",
       "game": "arknights",
-      "title": "Standard Headhunting",
+      "title": "Kernel Headhunting #62",
       "category": "banner",
-      "start": "2026-10-28T08:00:00-07:00",
-      "end": "2026-11-11T03:59:59-07:00",
+      "start": "2026-09-22T04:00:00-07:00",
+      "end": "2026-10-06T03:59:59-07:00",
+      "url": "https://arknights.wiki.gg/wiki/Headhunting/Banners/2026",
+      "source": "auto"
+    },
+    {
+      "id": "arknights-event-duel-channel-ivy-vine",
+      "game": "arknights",
+      "title": "Duel Channel: Ivy Vine",
+      "category": "event",
+      "start": "2026-09-23T08:00:00-07:00",
+      "end": "2026-10-07T03:59:59-07:00",
+      "url": "https://arknights.wiki.gg/wiki/Duel_Channel_Ivy_Vine",
+      "source": "auto"
+    },
+    {
+      "id": "arknights-banner-standard-pool-176",
+      "game": "arknights",
+      "title": "Standard Pool #176",
+      "category": "banner",
+      "start": "2026-09-25T04:00:00-07:00",
+      "end": "2026-10-09T03:59:59-07:00",
+      "url": "https://arknights.wiki.gg/wiki/Headhunting/Banners/2026",
+      "source": "auto"
+    },
+    {
+      "id": "arknights-banner-kernel-headhunting-63",
+      "game": "arknights",
+      "title": "Kernel Headhunting #63",
+      "category": "banner",
+      "start": "2026-10-06T04:00:00-07:00",
+      "end": "2026-10-20T03:59:59-07:00",
+      "url": "https://arknights.wiki.gg/wiki/Headhunting/Banners/2026",
+      "source": "auto"
+    },
+    {
+      "id": "arknights-ann-1627",
+      "game": "arknights",
+      "title": "Recommended Monthly Card",
+      "category": "event",
+      "start": "2026-10-08T04:00:00-07:00",
+      "end": "2026-11-16T03:59:59-07:00",
+      "url": "https://ark-us-static-online.yo-star.com/announce/Android/announcement/1627.html",
+      "source": "auto"
+    },
+    {
+      "id": "arknights-banner-standard-pool-177",
+      "game": "arknights",
+      "title": "Standard Pool #177",
+      "category": "banner",
+      "start": "2026-10-09T04:00:00-07:00",
+      "end": "2026-10-23T03:59:59-07:00",
       "url": "https://arknights.wiki.gg/wiki/Headhunting/Banners/2026",
       "source": "auto"
     },
@@ -69,12 +905,72 @@
       "source": "auto"
     },
     {
-      "id": "arknights-banner-rage-of-the-many",
+      "id": "arknights-event-critical-phase-transition",
       "game": "arknights",
-      "title": "Rage of the Many",
+      "title": "Critical Phase Transition",
+      "category": "event",
+      "start": "2026-10-14T08:00:00-07:00",
+      "end": "2026-10-28T03:59:59-07:00",
+      "url": "https://arknights.wiki.gg/wiki/Critical_Phase_Transition",
+      "source": "auto"
+    },
+    {
+      "id": "arknights-banner-kernel-locating-13",
+      "game": "arknights",
+      "title": "Kernel Locating #13",
       "category": "banner",
-      "start": "2026-09-16T08:00:00-07:00",
-      "end": "2026-09-30T03:59:59-07:00",
+      "start": "2026-10-20T08:00:00-07:00",
+      "end": "2026-11-03T03:59:59-07:00",
+      "url": "https://arknights.wiki.gg/wiki/Headhunting/Banners/2026",
+      "source": "auto"
+    },
+    {
+      "id": "arknights-banner-standard-pool-178",
+      "game": "arknights",
+      "title": "Standard Pool #178",
+      "category": "banner",
+      "start": "2026-10-23T04:00:00-07:00",
+      "end": "2026-11-06T03:59:59-07:00",
+      "url": "https://arknights.wiki.gg/wiki/Headhunting/Banners/2026",
+      "source": "auto"
+    },
+    {
+      "id": "arknights-banner-orienteering-7",
+      "game": "arknights",
+      "title": "Orienteering #7",
+      "category": "banner",
+      "start": "2026-10-28T08:00:00-07:00",
+      "end": "2026-11-11T03:59:59-07:00",
+      "url": "https://arknights.wiki.gg/wiki/Headhunting/Banners/2026",
+      "source": "auto"
+    },
+    {
+      "id": "arknights-banner-kernel-headhunting-64",
+      "game": "arknights",
+      "title": "Kernel Headhunting #64",
+      "category": "banner",
+      "start": "2026-11-03T04:00:00-07:00",
+      "end": "2026-11-17T03:59:59-07:00",
+      "url": "https://arknights.wiki.gg/wiki/Headhunting/Banners/2026",
+      "source": "auto"
+    },
+    {
+      "id": "arknights-ann-1656",
+      "game": "arknights",
+      "title": "The Masses' Travels Rerun",
+      "category": "event",
+      "start": "2026-11-05T08:00:00-07:00",
+      "end": "2026-11-19T03:59:59-07:00",
+      "url": "https://ark-us-static-online.yo-star.com/announce/Android/announcement/1656.html",
+      "source": "auto"
+    },
+    {
+      "id": "arknights-banner-standard-pool-179",
+      "game": "arknights",
+      "title": "Standard Pool #179",
+      "category": "banner",
+      "start": "2026-11-06T04:00:00-07:00",
+      "end": "2026-11-20T03:59:59-07:00",
       "url": "https://arknights.wiki.gg/wiki/Headhunting/Banners/2026",
       "source": "auto"
     }

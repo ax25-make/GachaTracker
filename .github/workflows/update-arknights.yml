@@ -1,0 +1,72 @@
+name: Update Arknights data
+
+on:
+  schedule:
+    # Daily at 12:30 UTC, after the 11:00 UTC daily reset when new posts usually appear.
+    - cron: '30 12 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: update-arknights
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      BRANCH: data/arknights-update
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 24
+          cache: npm
+
+      - run: npm ci
+
+      - name: Check the parsers
+        run: npm test
+
+      - name: Fetch data
+        run: node scripts/fetch-arknights.ts
+        env:
+          SUMMARY_FILE: ${{ runner.temp }}/summary.md
+
+      - name: Open or update the pull request
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if git diff --quiet -- src/data; then
+            echo "No changes."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git switch -C "$BRANCH"
+          git add src/data
+          git commit -m "Update Arknights event data"
+          git push --force origin "$BRANCH"
+
+          {
+            echo "Automated update from the Arknights Terra Wiki and the in-game announcement feed."
+            echo "Check the dates below, then merge to publish."
+            echo
+            cat "$RUNNER_TEMP/summary.md"
+            echo
+            echo "To hide or correct an entry, add its id to \`src/data/arknights.overrides.json\`."
+          } > "$RUNNER_TEMP/body.md"
+
+          if [ "$(gh pr view "$BRANCH" --json state --jq .state 2>/dev/null)" = "OPEN" ]; then
+            gh pr edit "$BRANCH" --body-file "$RUNNER_TEMP/body.md"
+          else
+            gh pr create --base main --head "$BRANCH" \
+              --title "Update Arknights event data" \
+              --body-file "$RUNNER_TEMP/body.md"
+          fi
