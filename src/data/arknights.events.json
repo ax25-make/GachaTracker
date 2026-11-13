@@ -1,6 +1,6 @@
 {
   "game": "arknights",
-  "updated": "2026-11-11",
+  "updated": "2026-11-13",
   "sources": [
     {
       "name": "official in-game announcements",
@@ -972,6 +972,26 @@
       "start": "2026-11-06T04:00:00-07:00",
       "end": "2026-11-20T03:59:59-07:00",
       "url": "https://arknights.wiki.gg/wiki/Headhunting/Banners/2026",
+      "source": "auto"
+    },
+    {
+      "id": "arknights-banner-hunters-of-the-umbral-wilds",
+      "game": "arknights",
+      "title": "Hunters of the Umbral Wilds",
+      "category": "banner",
+      "start": "2026-11-16T08:00:00-07:00",
+      "end": "2026-11-30T03:59:59-07:00",
+      "url": "https://arknights.wiki.gg/wiki/Headhunting/Banners/2026",
+      "source": "auto"
+    },
+    {
+      "id": "arknights-ann-1659",
+      "game": "arknights",
+      "title": "Thunder In The Azure Dream",
+      "category": "event",
+      "start": "2026-11-16T08:00:00-07:00",
+      "end": "2026-12-07T03:59:59-07:00",
+      "url": "https://ark-us-static-online.yo-star.com/announce/Android/announcement/1659.html",
       "source": "auto"
     }
   ]
