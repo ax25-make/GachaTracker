@@ -1,6 +1,6 @@
 {
   "game": "arknights",
-  "updated": "2026-11-11",
+  "updated": "2026-11-27",
   "sources": [
     {
       "name": "official in-game announcements",
@@ -955,13 +955,13 @@
       "source": "auto"
     },
     {
-      "id": "arknights-ann-1656",
+      "id": "arknights-event-the-masses-travels-rerun",
       "game": "arknights",
       "title": "The Masses' Travels Rerun",
       "category": "event",
       "start": "2026-11-05T08:00:00-07:00",
-      "end": "2026-11-19T03:59:59-07:00",
-      "url": "https://ark-us-static-online.yo-star.com/announce/Android/announcement/1656.html",
+      "end": "2026-11-15T03:59:59-07:00",
+      "url": "https://arknights.wiki.gg/wiki/The_Masses'_Travels_Rerun",
       "source": "auto"
     },
     {
@@ -972,6 +972,76 @@
       "start": "2026-11-06T04:00:00-07:00",
       "end": "2026-11-20T03:59:59-07:00",
       "url": "https://arknights.wiki.gg/wiki/Headhunting/Banners/2026",
+      "source": "auto"
+    },
+    {
+      "id": "arknights-banner-hunters-of-the-umbral-wilds",
+      "game": "arknights",
+      "title": "Hunters of the Umbral Wilds",
+      "category": "banner",
+      "start": "2026-11-16T08:00:00-07:00",
+      "end": "2026-11-30T03:59:59-07:00",
+      "url": "https://arknights.wiki.gg/wiki/Headhunting/Banners/2026",
+      "source": "auto"
+    },
+    {
+      "id": "arknights-banner-kernel-headhunting-65",
+      "game": "arknights",
+      "title": "Kernel Headhunting #65",
+      "category": "banner",
+      "start": "2026-11-17T04:00:00-07:00",
+      "end": "2026-12-01T03:59:59-07:00",
+      "url": "https://arknights.wiki.gg/wiki/Headhunting/Banners/2026",
+      "source": "auto"
+    },
+    {
+      "id": "arknights-banner-standard-pool-180",
+      "game": "arknights",
+      "title": "Standard Pool #180",
+      "category": "banner",
+      "start": "2026-11-20T04:00:00-07:00",
+      "end": "2026-12-04T03:59:59-07:00",
+      "url": "https://arknights.wiki.gg/wiki/Headhunting/Banners/2026",
+      "source": "auto"
+    },
+    {
+      "id": "arknights-ann-1659",
+      "game": "arknights",
+      "title": "Thunder In The Azure Dream",
+      "category": "event",
+      "start": "2026-11-23T00:00:00-07:00",
+      "end": "2026-11-29T23:59:59-07:00",
+      "url": "https://ark-us-static-online.yo-star.com/announce/Android/announcement/1659.html",
+      "source": "auto"
+    },
+    {
+      "id": "arknights-ann-1666",
+      "game": "arknights",
+      "title": "Positional Football Championship",
+      "category": "event",
+      "start": "2026-11-23T08:00:00-07:00",
+      "end": "2026-12-07T03:59:59-07:00",
+      "url": "https://ark-us-static-online.yo-star.com/announce/Android/announcement/1666.html",
+      "source": "auto"
+    },
+    {
+      "id": "arknights-banner-sharpened-by-flame",
+      "game": "arknights",
+      "title": "Sharpened by Flame",
+      "category": "banner",
+      "start": "2026-11-30T08:00:00-07:00",
+      "end": "2026-12-14T03:59:59-07:00",
+      "url": "https://arknights.wiki.gg/wiki/Headhunting/Banners/2026",
+      "source": "auto"
+    },
+    {
+      "id": "arknights-ann-1669",
+      "game": "arknights",
+      "title": "A Flurry To The Flame Rerun",
+      "category": "event",
+      "start": "2026-11-30T08:00:00-07:00",
+      "end": "2026-12-14T03:59:59-07:00",
+      "url": "https://ark-us-static-online.yo-star.com/announce/Android/announcement/1669.html",
       "source": "auto"
     }
   ]
